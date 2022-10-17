@@ -1,0 +1,11 @@
+.card-bottom {
+  @apply h-10 text-primary;
+}
+
+body {
+  /* font-family: "Montserrat" !important; */
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #eae3d2 !important;
+}
