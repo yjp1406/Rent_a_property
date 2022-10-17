@@ -35,9 +35,9 @@ const Topbar = ({
               selectedKeys={location}
               onSelectionChange={(key) => setLocation(key)}
             >
-              <Dropdown.Item key="Florida, USA">Florida, USA</Dropdown.Item>
-              <Dropdown.Item key="Texas, USA">Texas, USA</Dropdown.Item>
-              <Dropdown.Item key="Toronto, USA">Toronto, USA</Dropdown.Item>
+              <Dropdown.Item key="Mumbai, India">Mumbai, India</Dropdown.Item>
+              <Dropdown.Item key="Delhi, India">Delhi, India</Dropdown.Item>
+              <Dropdown.Item key="Gujarat, India">Gujarat, India</Dropdown.Item>
               <Dropdown.Item key="All">All</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
@@ -56,14 +56,14 @@ const Topbar = ({
               selectedKeys={when}
               onSelectionChange={(key) => setWhen(key)}
             >
-              <Dropdown.Item key="Move-in Next Months">
-                Move-in Next Month
+              <Dropdown.Item key="Move-in">
+                Move-in
               </Dropdown.Item>
-              <Dropdown.Item key="Move-in After 3 Months">
-                Move-in After 3 Months
+              <Dropdown.Item key="Move-in">
+                Move-in
               </Dropdown.Item>
-              <Dropdown.Item key="Move-in After 6 Months">
-                Move-in After 6 Months
+              <Dropdown.Item key="Move-in">
+                Move-in
               </Dropdown.Item>
               <Dropdown.Item key="All">All</Dropdown.Item>
             </Dropdown.Menu>
@@ -83,11 +83,12 @@ const Topbar = ({
               selectedKeys={price}
               onSelectionChange={(key) => setPrice(key)}
             >
-              <Dropdown.Item key="till 500">till 500</Dropdown.Item>
-              <Dropdown.Item key="till 1000">till 1000</Dropdown.Item>
-              <Dropdown.Item key="till 1500">till 1500</Dropdown.Item>
-              <Dropdown.Item key="till 2000">till 2000</Dropdown.Item>
-              <Dropdown.Item key="till 2500">till 2500</Dropdown.Item>
+              <Dropdown.Item key="till 1000"> less than or equal 1000</Dropdown.Item>
+              <Dropdown.Item key="till 1500">less than or equal 1500</Dropdown.Item>
+              <Dropdown.Item key="till 2000">less than or equal 2000</Dropdown.Item>
+              <Dropdown.Item key="till 2500">less than or equal 2500</Dropdown.Item>
+              <Dropdown.Item key="till 3000">less than or equal 3000</Dropdown.Item>
+              <Dropdown.Item key="till 5000">less than or equal 5000</Dropdown.Item>
               <Dropdown.Item key="All">All</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>

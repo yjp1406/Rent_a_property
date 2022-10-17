@@ -9,9 +9,9 @@ const Navbar = () => {
         variant="sticky"
         disableBlur
         className="!bg-white"
-        color="primary"
+        color="warning"
       >
-        <Nav.Content enableCursorHighlight hideIn="xs" variant="highlight">
+        <Nav.Content enableCursorHighlight hideIn="xs" variant="highlight" activeColor="warning">
           <Nav.Link  href="#" >Buy</Nav.Link>
           <Nav.Link isActive href="#">
             Rent
@@ -20,10 +20,10 @@ const Navbar = () => {
           <Nav.Link href="#">Manage Property</Nav.Link>
           <Nav.Link href="#">Resource</Nav.Link>
         </Nav.Content>
-        <Nav.Content>
+        <Nav.Content >
           <Nav.Link href="#">Login</Nav.Link>
           <Nav.Item>
-            <Button auto flat as={Link} href="#">
+            <Button auto flat as={Link} href="#"  color="warning">
               Sign Up
             </Button>
           </Nav.Item>
